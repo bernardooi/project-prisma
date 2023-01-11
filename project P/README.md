@@ -14,7 +14,7 @@ The registration part includes a form that consists of username, fullname, passw
 ### Login ###
 Implementing the login page went smoothly, prisma made it possible to GET from the database. By using it we could compare if the information was matching the data from the input fields with the data from the database. 
 
-### Update Password###
+### Update Password ###
 To update the password there is form with 4 input fields, Username, Old password, New password and Confirm New password. When submitting the form the server requests the data from the client-side and then finds the user in the database. It is the same process as the login page, where it confirms the user by entering the right password. Afterwards it updates the password in the database using Prisma with the entered values from the form. 
 
 ### Delete Account ###
