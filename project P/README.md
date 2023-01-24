@@ -21,4 +21,4 @@ To update the password there is form with 4 input fields, Username, Old password
 To delete the account the user have to enter their username and password and also confirm the password. When submitting the form it redirects the user to another page where the code is executed and then back to the home page. This part is the same as the login where it uses GET method to request data from the database, then compare it with the entered information from the client-side. Then if the data is correct it deletes the user from the database table and redirects the user to the home page. 
 
 ## How To Run ##
-Node start.
+npm start.
